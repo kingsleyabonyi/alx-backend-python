@@ -3,10 +3,9 @@
 '''Task 0's module.
 '''
 
-'''Adds two floating numbers
-'''
 
 def add(a: float, b: float) -> float:
-
+    '''Adds two floating numbers
+    '''
     return a + b
     
