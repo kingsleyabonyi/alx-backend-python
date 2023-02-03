@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-'''Annotate and define the variable appropriately
+'''Task 4's model
 '''
 
 a: int = 1
