@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
-
-'''Takes a string, int or float as arguments and returns a turple
+'''Task 7's module.
 '''
-
 from typing import Union, Tuple
 
-def to_kv(k: str, v: Union[int, float]) -> tuple:
-    return (str(k), float(v*2))
+
+def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
+    '''Converts a key and its value to a tuple of the key and
+    the square of its value.
+    '''
+    return (k, float(v**2))

@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-
-'''Annotate the below function’s parameters and return values with the appropriate types
+'''Task 9's module.
 '''
+from typing import Iterable, List, Sequence, Tuple
 
-from typing import List, Sequence, Iterable, Turple 
 
-def element_length(lst: Iterable(Sequence)) -> List[Turple[Sequence, int]]:
+def element_length(lst: Iterable[Sequence]) -> List[Tuple[Sequence, int]]:
+    '''Computes the length of a list of sequences.
+    '''
     return [(i, len(i)) for i in lst]

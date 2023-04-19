@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-'''Retrieves a value from a dict using a given key.
-    '''
+'''Task 11's module.
+'''
 from typing import Any, Mapping, Union, TypeVar
 
 

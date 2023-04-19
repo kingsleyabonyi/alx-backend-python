@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
-'''Takes string1 and string2 as arguments returning it as concatenated strings
+'''Task 1's module.
 '''
 
+
 def concat(str1: str, str2: str) -> str:
-    '''Takes string1 and string2 as arguments returning it as concatenated strings
+    '''Concatenates two strings.
     '''
-    return(str1 + str2)
+    return str1 + str2
